@@ -1,0 +1,46 @@
+/* Global Style */
+
+* {
+  font: 100 1rem sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Navbar */
+
+#navbar {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 2rem;
+}
+
+#home {
+  background: linear-gradient(45deg, red, white);
+  height: 100vh;
+  padding-top: 6rem;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
